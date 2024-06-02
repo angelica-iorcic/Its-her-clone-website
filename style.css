@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+header > nav{
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    background-color: #E4B6B5;
+}
+header > nav > div{
+    width: 15%;
+    height: 20px;
+    float: left;
+    margin-left: 5%;
+}
+header > nav > div::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+header > nav > div > img{
+    width: 80px;
+    position: absolute;
+}
+header > nav > ul{
+    width: 80%;
+    float: right;
+    text-align: left;
+    margin-left: 10px;
+}
+header > nav > ul > li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 7%;
+    color: #000;
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: #000;
+}
+#home{
+    background-color: #E4B6B5;
+    height: 700px;
+}
+#home img{
+    width: 50%;
+    height: 623px;
+    float: left;
+    margin-top: 5%;
+}
+#home > div{
+    width: 45%;
+    height: 637px;
+    float: right;
+    margin-top: 5%;
+    padding-top: 80px;
+}
+h1{
+    font-size: 64px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-size: 36px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3{
+    font-size: 24px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#home > div > p{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+button{
+    width: 23%;
+    padding: 17px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+    transition: 0.3s;
+}
+#stories{
+    height: 800px;
+    padding: 60px;
+}
+#stories > div:first-child{
+    width: 45%;
+    float: left;
+    padding: 280px 0 0 40px;
+}
+#stories > div > p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#stories > div:last-child{
+    width: 45%;
+    float: right;
+}
+#stories img{
+    width: 550px;
+    padding: 15px 0 50px 0;
+}
+#photos{
+    height: 1050px;
+    background-color: #E4B6B5;
+    display: inline-block;
+    padding: 50px;
+}
+#photos img{
+    width: 300px;
+    padding: 25px;
+}
+#contact{
+    background-color: #814E4C;
+    height: 770px;
+    padding: 60px;
+}
+#contact > div:first-child{
+    width: 47%;
+    float: left;
+}
+#contact img{
+    width: 500px;
+    padding: 20px 15px 20px 50px;
+}
+#contact > div:last-child{
+    width: 45%;
+    float: right;
+    color: #fff;
+    padding: 300px 0 0 90px;
+}
+#contact > div > p{
+    font-size: 18px;
+}
+#contact > div > button{
+    margin-top: 20px;
+    background-color: #fff;
+    color: #000;
+    width: 35%;
+}
+#contact > div > button:hover{
+    background-color: rgb(232, 232, 232);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.photo-col{
+    height: 620px;
+    padding: 80px;
+    padding-top: 50px;
+}
+.col-left{
+    width: 50%;
+    float: left;
+    height: 660px;
+}
+.col-left img{
+    width: 650px;
+}
+.col-right{
+    width: 49%;
+    float: right;
+}
+.col-right img{
+    width: 650px;
+}
+.conclusion{
+    background-color: #E4B6B5;
+    height: 160px;
+    padding: 60px;
+    text-align: center;
+}
+.conclusion p{
+    font-size: 18px;
+}
+.container{
+    height: 100px;
+    padding: 60px;
+}
+.container img{
+    width: 30px;
+}
+.container > nav > ul{
+    width: 100%;
+    height: 50px;
+}
+.container > nav > ul > li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+}
+.container > nav > ul > li > a{
+    color: #000;
+}
